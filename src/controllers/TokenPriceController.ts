@@ -44,7 +44,8 @@ export class TokenPriceController {
             "ETH": "ethereum",
             "ETC": "ethereum-classic",
             "POA": "poa-network",
-            "CLO": "callisto-network"
+            "CLO": "callisto-network",
+            "XERO": "xerom"
         }
 
         const result1 = tokens.map((token: IToken) => {
